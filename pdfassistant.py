@@ -45,7 +45,7 @@ st.title("Julien sik")
 
 
 #llm = ChatGooglePalm(temperature=temperature, max_output_tokens= 512 ,verbose=True,streaming=True)
-llm = ChatOpenAI(temperature=0.9, model= "gpt-3.5-turbo-1106", verbose=True)
+llm = ChatOpenAI(temperature=0.2, model= "gpt-3.5-turbo-1106", verbose=True)
 
 folder_path = "./files"
 
@@ -149,7 +149,7 @@ if file_paths is not None:
         prompt_template = r"""
 -You are a helpful teacher who can speak chinese.
 - Help out the student.
--talk humbly. Answer the question from the provided course context.
+-talk humbly. Answer the question from the provided course context only.
 -Use the following pieces of context to answer the question at the end.
 -this is the context:
 ---------
