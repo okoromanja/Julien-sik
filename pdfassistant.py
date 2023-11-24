@@ -45,7 +45,7 @@ st.title("Julien sik")
 
 
 #llm = ChatGooglePalm(temperature=temperature, max_output_tokens= 512 ,verbose=True,streaming=True)
-llm = ChatOpenAI(temperature=0.2, model= "gpt-3.5-turbo-1106", verbose=True)
+llm = ChatOpenAI(temperature=0.1, model= "gpt-3.5-turbo-1106", verbose=True)
 
 folder_path = "./files"
 
