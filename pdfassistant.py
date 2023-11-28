@@ -40,6 +40,6 @@ def get_csv_text(file):
 
 
 st.set_page_config(page_title="LIAR, EAT HARAM", page_icon="books")
-st.title("Julien sik")
+st.title("LIAR, EAT HARAM")
 
 
